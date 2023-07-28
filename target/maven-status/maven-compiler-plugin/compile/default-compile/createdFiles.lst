@@ -1,0 +1,7 @@
+com\example\ec3java\repository\ICategoryRepository.class
+com\example\ec3java\Ec3JavaApplication.class
+com\example\ec3java\repository\IInstrumentRepository.class
+com\example\ec3java\entities\CategoryEntity.class
+com\example\ec3java\controller\CategoryController.class
+com\example\ec3java\entities\InstrumentEntity.class
+com\example\ec3java\controller\InstrumentController.class
