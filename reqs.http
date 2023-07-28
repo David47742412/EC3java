@@ -1,0 +1,27 @@
+@server = INSERTAR URL DE RENDER ACÁ
+@api = {{server}}/api/ec3
+
+################ Categorias: ################
+
+####################################
+#TODO estoy utilizando uuid
+#
+###
+GET {{api}}/categorias/
+###
+POST {{api}}/categorias/
+Content-Type: application/json
+
+{"name": "Instrumentos de Cuerda"}
+################ Instrumentos: ################
+###
+GET {{api}}/instrumentos/
+###
+POST {{api}}/instrumentos/
+Content-Type: application/json
+
+{"name": "Guitarra", "category": "http://localhost/api/ec3/categorias/1"}
+###
+GET {{api}}/instrumentos/1/categoria
+###
+GET {{api}}/instrumentos?sort=name,desc
